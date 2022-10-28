@@ -21,7 +21,7 @@
 
         //with acc
 
-        var result1 = arr.reduce((acc,cvalue)=>acc+cvalue,100)
+        var result1 = arr.reduce((acc,cvalue)=>acc+cvalue,2)
         console.log(result1)
 
         //print sum of all marks using reduce
@@ -40,6 +40,8 @@
             }
         ]
 
+        var result = student.reduce((acc,element)=>acc+element.marks,0)
+        console.log(result)
 
     </script>
 </body>

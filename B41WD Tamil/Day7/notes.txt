@@ -51,3 +51,6 @@ it doesnt returns an array it always returns a single value
 it has 2 parameters(accumulator and curr value)
 if we are not giving acc value it takes 0 index at acc.
 
+when we are using array of objects, always declare a acc value 
+to avoid mistakes.
+
