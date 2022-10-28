@@ -1,0 +1,50 @@
+OOP=> object oriented programming
+classes and objects
+objects=> object literal and object constructor
+
+code is less.
+class objects and methods.(properties)
+
+js is a object oriented program.
+we convert it into class basd program to achieve some limitation in OOP.
+
+prototype:
+it is a js inbuilt proprty.
+it refers a system.
+this allows u to defne the properties.
+
+car:
+accelerator
+clutch
+break
+milegae
+fuel capacity
+price
+type
+color
+airbag
+stering
+
+var obj={
+    name:"vidhya",
+    work:"guvi"
+}
+clss is a blueprint of an object.class is a keyword
+
+syntax: 
+
+class className{
+    constructor(parameters){
+this.proeprties=properties,
+    }
+}
+
+class is always have a constructor inside it.
+constructor holds the parameters.
+all the properties are putting inside the constructor.
+
+
+this is a standard keyword using only inside the constructor 
+and this is mentioned aa a key.
+
+new is a keyword which is represented as a new array or instances.

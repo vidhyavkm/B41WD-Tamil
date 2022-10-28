@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //global scope
+        const x=100;
+        //let x=100;
+        //var x = 100;
+        {
+            {
+                console.log(x)//100
+            }
+        }
+        console.log(x)//100
+
+        //block scope
+        {
+            let y =200;
+           // const y =200;
+            console.log(y);//200
+        }
+       // console.log(y);//not defined
+
+        if(5>4){
+            var a="hello"
+        //const a="hello"
+            //let a ="hello"
+            {
+                console.log(a)//hello
+            }
+        }
+        console.log(a)//not defined
+
+        //functional scope
+
+        function scope(){
+            var car = "Volvo"
+            //let car = "Volvo"
+          return car;
+        //console.log(car);
+        }
+        console.log(scope());//not defined
+        //scope();
+    </script>
+</body>
+</html>

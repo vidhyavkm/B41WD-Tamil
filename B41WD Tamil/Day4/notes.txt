@@ -1,0 +1,56 @@
+XMLhttprequest
+hoisting and scope
+introductions to functions
+
+hoisting:=> gives undefined
+in other words, a variable can be used before it has been declared 
+pushing the variable to the top of the scope.
+hoisting occurs only in var keyword.
+only var is hoisted, bcoz at the time only var is available.
+var is global and functional scope.
+var is the oldest keyword in javascript.
+
+what is undefined?=> we are trying to access a variable without intialization.
+
+ES5 => var=> redeclare an reassign
+ES6 => let and const
+
+comment=> ctrl+/=> shortcut
+// => inside script
+
+XMLhttprequest:(old)
+extensible markup language
+
+API=> application programming interface
+
+Introduction to functions:
+
+set of instructions to perform a specific tasks.
+code reusability=> functions
+
+how to create a function:
+
+every function should begin with the keywrod function
+function name should be unique.
+if we are not using return Keyword , it gives undefined
+a list of parameters should be inside the (parameters) seperated by commas.
+{} list of statement composing the body of the function
+we should call the function at the end. 
+functionname(arguments)
+function always has a return keyword inside the paranthesis.
+return keyword will stop the function once executed.
+
+types of function:
+
+1. named or normal function => 
+syntax: function functionname(parameters){statement or condition return keyword}(arguments)
+
+2. anonymous function=> fucntion has no name
+syntax: variable variablename = function (){return}
+
+3. IIFE (immediately invoked function expression)=>rarely used, less memory used
+syntax: (function(){})();
+
+4. Arrow function=> mostly used, latest version in ES6
+syntax: variable varibalename = () => {}();
+

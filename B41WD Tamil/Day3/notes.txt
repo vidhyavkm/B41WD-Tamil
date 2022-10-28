@@ -1,0 +1,63 @@
+copy/call by value and call/copy by reference 
+window and document object 
+Array and JSON iteration
+
+call/copy by value:
+primitive datatypes=> number, string , boolean
+ a = 5
+ b = a
+a=b=5
+this approach is called call by value where 2 variables become the same by copying the value,
+but in 2 seperate spots in the memory.
+
+copy by reference:
+composite datatypes=> arrays and objects
+arr = []
+
+copy by value:
+=> the original variable is not modified on changes in other variables.
+=> actual and copied variables will be created in different memory locations
+=> it takes high memory
+
+copy by reference:
+=> the original variable is gets modified on changes in other variables.
+=> actual and copied variables will be created in same memory locations
+=> it takes less memory.
+
+Document and window object :
+document is represent a web page that is loaded in the browser.
+by accesing the document object , we can access the element in the html page .
+with the help of document, we can add dynamic content to our webpage
+document.propertyname => title, head, body, url
+document.methodname => addeventlistenr(), create attributes()
+
+window=> propertyname=> innerheight, innerwidth
+methodname=> close(), alert(), open()
+
+JSON:
+javascript JSON=> javascript object notation {} ""
+which is lightweight, and txt based designed, it has key valuepairs
+and curly braces holds the object, the comma is used to seperate 
+key value pairs, square brackest are used to hold arrays, where each vakue is coma seperated.
+it is an open standard, data-intechange format.
+it is lightweight and self describing
+it is originated from javascript
+it is easy to learn and write.
+it is language dependent. 
+it supports data structures such a arrays and objects.
+
+JSON.parse():=> to convert the string into a JS object .
+this method takes Json string and transforms it int0 a javscript object.
+when we receiving data from server it is int he form of string
+parse the data =by using JSON.parse
+
+JSON.stringify()=> data to string
+the method converts a js value to a json string represnetation
+when sending data to the server the data should be in strign format .
+
+array iteration:
+for loop:
+used to print the values of an array in order.
+
+
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function foo(a,b,...bar){
+            console.log(a)
+            console.log(b)
+            console.log(bar)
+        }
+        foo("hi","hello","welcome","how","are","you")
+
+        function foo1(...bar){//rest
+            //console.log(a)
+            // console.log(b)
+            console.log(...bar)//
+        }
+        foo1("hi","hello","welcome","how","are","you")
+
+        //sum of elements in an array
+
+        function sum(...numbers){
+        var sum=0;
+        numbers.forEach((element) =>{
+        sum += element;    
+        });
+        return sum;
+        }
+        console.log(sum(2,3,4))
+
+
+    </script>
+</body>
+</html>

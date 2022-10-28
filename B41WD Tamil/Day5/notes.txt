@@ -1,0 +1,64 @@
+var let const
+scoping
+template literals
+object shorthand
+destructuring
+spread and rest operator
+for each
+functions
+
+ES5 (2009) :
+var , for loop , fucntion return keyword
+low performance 
+large community supports
+conactintaion
+dot , []
+
+ES6(2015)
+let const
+arrow funtctions
+foreach
+map reduce filter
+high performance 
+less community 
+templat literals
+destructuiring
+
+var =>
+we can redeclare and we can reassign mulitple times
+we can overwrite the values
+global scope and functional scope
+
+let=>
+we can reasiign the values but we cant redeclare
+block scope
+
+const=>
+we cant redclare or reassign 
+block scope
+
+scope:
+block scope=> let and const 
+functional scope => var
+global scope=> var
+
+concatination: sepeartion and addition
+if we want to print as a line continutaion.
+template literlas=> `${}`
+
+object shorthand :
+
+the shorthand syntax for object value is very popular and widely used
+the code looks clean and easy to redclare
+it makes the code size smaller am simpler
+
+spread operator:
+syntax(...)
+spread operator expands an array into elements.
+when u want to spread the content of array eleemnts.
+to join 2 arrays .
+want to push one aray into another array
+
+rest parameter:
+the rest parameter allows a function
+always put as a last parameter

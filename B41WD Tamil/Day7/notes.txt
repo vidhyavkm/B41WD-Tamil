@@ -1,0 +1,53 @@
+Array Methods:
+
+map, reduce , filter
+heterogenous
+[]
+[1,"string",true]
+index starts from 0.
+length= n-1
+elements, index
+[1,2,3,4,56,6]
+
+Map:
+Transforms the Array
+works on each and every element in an array.
+returns a new array.
+functions as a parameter.
+it does not change the length of the array.
+we cant use map if we want to change one particular element in an array.
+
+array.map()=>ES6
+
+for loop => ES5
+var arr=[1,2,3,4,5]
+[2,4,6,8,10]
+
+syntax:
+
+arr.map((element)=>{
+    block of code
+})
+
+filter:
+
+works on each and every element in an array.
+returns the same array with same elements with different length.
+functions as a parameter.
+it does change the length of the array.
+it always returns a array.
+elimiante something as per the condition.
+
+arr.filter((element)=>{
+    block of code
+})
+
+Reduce:
+
+works on each and every element in an array.
+functions as a parameter.
+it does change the length of the array.
+it doesnt returns an array it always returns a single value
+it has 2 parameters(accumulator and curr value)
+if we are not giving acc value it takes 0 index at acc.
+

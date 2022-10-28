@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //4 steps
+        //1. create XHR object by using new keyword
+        //2. opening a connection => 3 parameteres(1.http method:GET,2.api url, 3.true(optional,to handle errors))
+        //3. sending the request// initiate the connection
+        //4. server response(JSON format=> .parse)
+        //request : userdefined
+
+let request  = new XMLHttpRequest();
+
+request.open('GET','https://restcountries.com/v3.1/all',true)
+
+request.send();
+
+request.onload = function () { //onload event=> to loading the page 
+
+ let data = JSON.parse(request.response)
+ console.log(data)
+//  console.log(data[0].area)
+//  console.log(data[0].name)
+//  console.log(data[0].name.common)
+
+//for loop
+
+// for( i=0; i<data.length; i++){
+//     console.log(data[i].name.common)
+// }
+// //forof
+// for (var obj of data){
+//     console.log(obj.name)
+// }
+
+var res1 = data.filter((element)=>element.region==="Asia")
+console.log(res1)
+
+//
+
+data.filter((element)=>{
+for (let key in element.languages){
+    if(element.languages[key].eng="English"){
+        console.log(element.name.common)
+    }
+}
+})
+// var res2= res1.map((element)=> element.name.common)
+// console.log(res2)
+}
+ 
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
