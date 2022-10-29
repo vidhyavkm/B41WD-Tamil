@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//for loop
+
+var array = [1,2,3,4,5,"guvi","geek"]
+for(var i=0; i<array.length; i++){
+    console.log(i)
+}
+
+for (let i=10; i>0; i--){
+    console.log(i)
+}
+//for in loop
+//objects, arrays
+
+var obj = {
+    name:"vidhya",
+    city:"chennai"
+}
+for (var key in obj){
+    console.log(key)
+    // console.log(obj.name,obj.city)
+}
+
+//for of loop
+//array
+
+var cars = ["BMW","volvo","Mini"]
+
+for (var index of cars){
+    console.log(index)
+    console.log(cars.index)
+}
+
+for (var key in cars){
+    // console.log(key)
+    console.log(cars[key])
+}
+
+</script>
+</body>
+</html>

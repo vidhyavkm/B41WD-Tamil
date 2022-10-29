@@ -1,0 +1,50 @@
+create a folder in any where in ur pc
+go to vs code and , click file and click open folder
+select the folder , u created now and open it 
+then create files called html , js, notes
+then move to html file and click shift+exclamatory symbol=> hit enter
+(emmet abbreviation)=> 12 line codes
+
+there are two ways to get the output
+=> browser js: we can get the output in the browser page
+=> node js : we will get the output in vs code itself 
+
+datatypes:
+1. Primitive => number, string, boolean
+2. Composite 
+3. Trivial datatypes
+
+number=> ex: 2,3.5,100,  1/2
+string => "guvi", 'geek'(single or double quotes)
+Boolean=> true or false (1 or 0)
+
+composite datatypes:
+1. arrays 
+2. objects
+
+arrays
+=> group of elements
+=> collection of heterogeneous datatypes
+=> represent : [] , seperated by commas
+=> sequential chunk of memory
+=> also refered as an object
+=> starts with index 0 and ends with length-1(n-1)(memory location) 
+
+["1", 23, "hello", "true", true] // length array=5
+
+object;
+always has a key and value as a pair.
+represent as {}, seperated by commas
+2ways can access the values=> dot opertor, sqaure brackets
+object always returns the output in console in a alphabet order
+
+window and object 
+what is a window?
+window is a browser page where we can see all the outputs directly and 
+it has console, network windw everythong inside it .
+
+trivial datatypes:
+
+undefined => var , hoisting if we didnt assign the value
+not defined=> we wont declare the value=>error
+null => if there is no value and no variable name 

@@ -1,0 +1,29 @@
+js basics
+datatypes
+let var const
+hoisting
+looping
+array, objects
+call by value and reference
+XMLhttp request
+scope=> block functional and global
+functions
+window object document
+api url
+JSON iteration
+template literals
+destructuring
+object shorthand
+spread and rest parameter
+foreach
+http and https
+browserjs and nodejs
+
+types:
+normal 
+anonymous
+iife
+arrow=> ES6
+
+
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+          var array=[1,2,3,4,5,6,7,8,9,10,11,2000,3000,998,999] 
+        
+        //console.log(array)
+        //print odd and even numbers in array
+
+        var result = array.filter((element)=>element%2==0)
+        console.log(result)
+
+        var result1 = array.filter((element)=>element%2===1)
+        console.log(result1)
+
+        var result2 = array.filter((element)=>element%2!==0)
+        console.log(result2)
+
+        //== comparison !=
+        //=== comparison along with datatypes
+
+        //words length <> 6 //filter
+        var words =["guvi","geek","networks","private","ltd","chennai"]
+
+        var result1 = words.filter((element)=>element.length<4)
+        console.log(result1)
+
+        var result2= words.filter((element)=>element.length)
+        console.log(result2)
+
+        //print the marks > 50 //filter
+        var student =[
+            {
+                name:"Alex",
+                marks:50 //60
+            },
+            {
+                name:"Bobb",
+                marks:70 //80
+            },
+            {
+                name:"Cand",
+                marks:40 //50
+            }
+        ]
+        var result3 = student.filter(element=>element.marks>50)
+        console.log(result3);
+        // var res1 = data.filter((element)=>element.region=="Asia")
+        // console.log(res1)
+    </script>
+</body>
+</html>
