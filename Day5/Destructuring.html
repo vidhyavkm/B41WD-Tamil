@@ -8,23 +8,34 @@
 </head>
 <body>
     <script>
-        //obj destruc
+        //obj destruc// traditional way//ES5
         const user = {
             name:"arun",
             place:"chennai",
             job:"mentor",
-            salary:"4LPA"
-        }
+            salary:"4LPA",
+        address:
+        {no:2, 
+         pincode:10},
+            }
         console.log(user)
         console.log(user.name)
+        console.log(user.place)
+        console.log(user.address)
+
         // console.log(user["name"],user["job"])
 
-        const{name,place,job,salary}=user
 
+        //obj dest in ES6
+        const{name,place,job,salary,address}=user
+        const {no,pincode}=address
+
+        console.log(no,pincode)
        console.log(name,place,job,salary)
         console.log(place)
         console.log(job)
         console.log(salary)
+        console.log(address.pincode)
 
         //array destruc
 
@@ -36,7 +47,7 @@
         console.log(random)
         // console.log(array)
 
-        //swap 
+        
 
 
     </script>

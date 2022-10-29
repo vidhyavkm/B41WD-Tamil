@@ -1,4 +1,7 @@
 console.log("HI")
+var a;
+console.log(a);
+console.log(b);
 
 var array = ["1", 23, "hello", "true", true]
 console.log(array)

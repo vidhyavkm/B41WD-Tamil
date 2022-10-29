@@ -54,3 +54,8 @@ if we are not giving acc value it takes 0 index at acc.
 when we are using array of objects, always declare a acc value 
 to avoid mistakes.
 
+syntax :
+arr.reduce((acc,currval)=>{
+    block of code 
+})
+
