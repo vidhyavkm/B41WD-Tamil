@@ -1,0 +1,45 @@
+What is HTML?
+Hypertext markup language kind of programming
+gives a structure to the webpage and web appications.
+to build the static website
+
+documnt type=> HTML
+langauage => english
+
+meta tags=> defau;t things, vant change anything except tilte.
+we can change the tilte we need 
+
+all the tags are putting inside the HTML tags.
+head tag=> meta and title tags
+
+body tag=> script tag => all html tags.
+
+it has opening and closed tags=> head and body
+self closing tags=> meta 
+
+attributes=>attributes are an additional information about the tags.
+
+tags:
+
+header tags => h tags=> 6 types
+paragraph tags
+input tags
+table tags
+orderedlist and unordered list tags
+div tags
+section, article tags etc...
+
+element=> tag + content
+
+elements
+
+1. inline=> 
+it occupys only upto the content length
+it will print in the same line
+
+2. block element=>
+ it occupys through out the width of the doc
+ it will takes u to the next line 
+
+ div elemnt=> it odesnt have any special features
+ but it alwys contains its chilren
