@@ -1,0 +1,44 @@
+css=> cascading styles
+
+3 types of css :
+
+1. inline css=> rarely used=> highest priority=> styling inside the tag line
+2. internal css=> the style tag using inside the html page (inside head tags)
+3. external css=> mostly used=> style file is created seperately and linked with html file 
+
+inline> internal> external
+
+3 selectors:
+
+tag selectors(universal selectors)=> it has only tags , we give design by using tags
+id selectors=> id must be unique and its denoted by #
+class selectors=> classname can be anything and it is denoted as .
+
+id name and class name are usert defined
+id name should be unique
+class name can be used mulitple times
+class and id can ve used inside a same tag with comma
+mulitple properties=> go for class
+unique proeprties=> go for id 
+
+property and value:
+property:value
+eg=>text:blue
+
+css properties:
+font:
+font-weight
+background clor
+border
+text align
+align
+width
+highlight etc,.
+
+display properties:
+
+inline and block 
+
+we can change the block elemnt into inlie element and voce versa by using css diaply properties.
+
+important keyword=> wherever u r giving important it gives priortity it.

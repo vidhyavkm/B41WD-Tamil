@@ -43,3 +43,13 @@ it will print in the same line
 
  div elemnt=> it odesnt have any special features
  but it alwys contains its chilren
+
+ table:
+
+ open table tag
+ thead(table heading)=> any no of rows 
+ it contains tr(table row) and th(header cell)
+
+ tbody(table body)=>any rows and no of columns
+
+it comtains tr(table row) and td(data cells)

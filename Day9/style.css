@@ -1,0 +1,12 @@
+p{
+    background-color: aquamarine;
+    font-size:50px;
+    font-family:'Times New Roman', Times, serif;
+}
+#bar{
+    background-color:aqua;
+    width:fit-content; 
+}
+.res{
+    border: 2px solid red !important;
+}
