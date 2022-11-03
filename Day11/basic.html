@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+    width:500px;
+    height:auto;
+    text-align:center;
+    display:grid;
+    grid-gap:10px;
+    /* grid-template-columns: 50px 50px;
+    grid-template-rows: 90px 70px 70px 90px; */
+    margin: 20px 10px 5px 10px;
+    border: 2px solid red;
+    padding:5px;
+    /* justify-content: start; */
+    /* justify-content:start; */
+    align-items: end;
+}
+.hello1{
+    background-color: olive;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hello">Header</div>
+            <div class="hello1">Home</div>
+    <div id="test">Products</div>
+    <div id="test1">Categories</div>
+    <div id="test2">Footer</div>
+    </div>
+</body>
+</html>

@@ -31,9 +31,9 @@ request.onload = function() { //onload event=> to loading the page
 
 //for loop
 
-// for( i=0; i<data.length; i++){
-//     console.log(data[i].name.common)
-// }
+for( i=0; i<data.length; i++){
+    console.log(data[i].name.common)
+}
 // //forof
 // for (var obj of data){
 //     console.log(obj.name)
@@ -44,25 +44,16 @@ console.log(res1)
 
 // //
 
-// data.filter((element)=>{
-// for (let key in element.languages){
-//     if(element.languages[key].eng="English"){
-//         console.log(element.name.common)
-//     }
-// }
-// })
-// var res2= res1.map((element)=> element.name.common)
-// console.log(res2)
+data.filter((element)=>{
+for (let key in element.languages){
+    if(element.languages[key].eng="English"){
+        console.log(element.name.common)
+    }
 }
- 
-
-
-
-
-
-
-
-
+})
+var res2= res1.map((element)=> element.name.common)
+console.log(res2)
+}
     </script>
 </body>
 </html>

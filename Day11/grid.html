@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.container{
+    width:500px;
+    height:auto;
+    text-align:center;
+    display:grid;
+    grid-gap:10px;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 90px 70px 70px 90px;
+    margin: 20px 10px 5px 10px;
+    border: 2px solid red;
+    padding:5px;
+    background-color: darkorchid;
+}
+.hello{
+    background-color: aqua;
+    padding:30px;
+    /* grid-column:1/3;
+    grid-row:1/2; */
+}
+.hello1{
+    text-align: center;
+    background-color: darkgoldenrod;
+    padding:30px;
+    /* grid-column: 1/2;
+    grid-row: 2/3; */
+}
+#test{
+    background-color:darkslateblue;
+    padding:30px;
+    /* grid-column: 1/2;
+    grid-row: 3/4; */
+}
+#test1{
+    background-color:brown;
+    padding:30px;
+    /* grid-column: 2/3;
+    grid-row: 2/4; */
+}
+#test2{
+    background-color:darkgreen;
+    padding:30px;
+    /* grid-column: 1/3;
+    grid-row: 4/5; */
+}
+    </style>
+    </head>
+<body>
+    <div class="container">
+        <div class="hello">Header</div>
+            <div class="hello1">Home</div>
+    <div id="test">Products</div>
+    <div id="test1">Categories</div>
+    <div id="test2">Footer</div>
+</div>
+</body>
+</html>

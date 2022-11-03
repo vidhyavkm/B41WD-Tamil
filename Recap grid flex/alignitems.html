@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+          height: 500px;
+          width:200px;
+            background-color: aqua;
+            text-align: center;
+            padding:30px;
+            margin:20px;
+            display:flex;   
+        }
+        .start{
+            align-items:  start;
+            flex-wrap: wrap;
+        }
+        .end{
+            align-items: end;
+            flex-wrap: wrap;
+        }
+        .center{
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .space-around{
+            align-content: space-around;
+            flex-wrap: wrap;
+        }
+        .space-between{
+            align-content: space-between;
+            flex-wrap: wrap;
+        }
+        .item{
+            padding:30px;
+            background-color: blue;
+            border:1px solid ;
+            /* margin:10px; */
+        }
+        .item1{
+            background-color: blueviolet;
+        }
+        .item2{
+            background-color:brown;
+        }
+        .item3{
+            background-color:cornflowerblue;
+        }
+        .item4{
+            background-color:darkorange;
+        }
+        .item5{
+            background-color:khaki;
+        } 
+        .item6{
+            background-color:forestgreen;
+        } 
+        
+    </style>
+</head>
+<body>
+    <div class="container start">
+        <div class="item item1">1</div>
+        <div class="item item2">2</div>
+        <div class="item item3">3</div>
+        <div class="item item4">4</div>
+        <div class="item item5">5</div>
+        <div class="item item6">6</div>
+    </div>
+    <div class="container end">
+        <div class="item item1">1</div>
+        <div class="item item2">2</div>
+        <div class="item item3">3</div>
+        <div class="item item4">4</div>
+        <div class="item item5">5</div>
+        <div class="item item6">6</div>
+    </div>
+    <div class="container center">
+        <div class="item item1">1</div>
+        <div class="item item2">2</div>
+        <div class="item item3">3</div>
+        <div class="item item4">4</div>
+        <div class="item item5">5</div>
+        <div class="item item6">6</div>
+    </div>
+    <div class="container space-around">
+        <div class="item item1">1</div>
+        <div class="item item2">2</div>
+        <div class="item item3">3</div>
+        <div class="item item4">4</div>
+        <div class="item item5">5</div>
+        <div class="item item6">6</div>
+    </div>
+    <div class="container space-between">
+        <div class="item item1">1</div>
+        <div class="item item2">2</div>
+        <div class="item item3">3</div>
+        <div class="item item4">4</div>
+        <div class="item item5">5</div>
+        <div class="item item6">6</div>
+    </div>
+</body>
+</html>
