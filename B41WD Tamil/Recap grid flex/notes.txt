@@ -1,0 +1,83 @@
+what is a grid?
+we can align the contents of the website as we want 
+whether it is horizontal and vertical
+we can align both at the same time
+
+grid gap
+grid positioning
+
+justify content=> align horizontally based on the end or start of the container
+justifyitems=> align horizontally based the end or start of the concern column.
+
+flex:
+
+we can align the content either horizontally or vertically 
+flexintro
+flexdirection
+flexwrap
+
+justifycontent
+1.start
+2.end
+3.center
+4.space-around
+5.space-between
+6.space-evenly
+
+alignitems=>
+1.start
+2.end
+3.center
+4.space-around
+5.space-between
+
+position properties:
+fixed
+static=>default behaviour
+sticky
+absolute 
+relative
+
+positon properties canot work without the top right bottom and left measuremnts.
+left or right
+top or bottom
+
+combinations:
+top left
+top right
+bottom left
+bottom right 
+
+static:
+no change
+by default
+they are not affected by left right top and bottom
+
+fixed:
+they are affected by the combinations.
+if u allot one specific positon, it ill be fixed at the position.
+they are not affected by scrolling.
+
+sticky:
+they are affected by the combinations.
+they are not affected by scrolling until they reach t the given positions.
+
+relative:
+it changes it position relative to its normal positon
+they are affected by the combinations.
+it affects the doc flow
+it creates its own space.
+
+absolute:
+is always change its position w r t its parent element.
+parent => tag inside
+it affects the doc flow
+they are affected by the combinations.
+always use relative along with absolute of u want to change the parent 
+
+
+
+
+
+
+
