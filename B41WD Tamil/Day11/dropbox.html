@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dropdown{
+            position:relative;
+            background-color: lawngreen;
+            width:50px;
+            padding:10px;
+        }
+        .list{
+            position: absolute;
+            left:50px;
+            top:50px;
+            background-color:blue;
+            color:white;
+            border:1px solid red;
+            display: none;
+        }
+        .name:hover{
+            background-color:grey;
+            color:firebrick;
+        }
+        .dropdown:hover .list{
+display:block;
+        }
+        .name{
+            padding:10px;
+            border:2px solid white;
+        }
+    </style>
+</head>
+<body>
+    <p>A drop box</p>
+    <select>
+        <option>Coffee</option>
+        <option>Tea</option>
+        <option>Juice</option>
+        <option>Icecream</option>
+    </select>
+<br><br><br>
+    <div class="dropdown">Courses
+        <div class="list">
+            <div class="name">HTML</div>
+            <div class="name">CSS</div>
+            <div class="name">Javascript</div>
+            <div class="name">React</div>
+            <div class="name">Node</div>
+        </div>
+    </div>
+</body>
+</html>
