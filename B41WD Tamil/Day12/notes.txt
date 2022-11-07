@@ -1,0 +1,35 @@
+RWD=> Responsive web design
+it should be responsive for all kind of devices.
+why it is used?
+for user convenient.
+Responsive=> media queries
+majorly achieved by Bootstrap.
+
+when we want to make ur web responsive, then go for Bootstrapframework.
+bootstrap => it is a framework that uses html, css and JS to make the design responsive
+this is called mobile first approach.
+it will consume less time. 
+codes are inbuilt.
+we can any version.(4.6)
+it doesnt has a horizontal scroll bar.
+it fits to any screen.
+
+two methods:
+
+1. copy cdn link=> go to bootstrap site and copy the css link , then paste it into ur vscode , inside head tags.
+2. download files =>
+
+layout:
+it should have a design before started to proceed the app.
+it should be always responsive.
+
+grid system:
+=> container=> rows=> columns
+bootstrap grid system=> we can create more rows but only 12 columns(1*12) inside a row.
+
+why 12?
+1*12
+2*6=>6/6
+3*4=>4/4/4
+4*3=>3/3/3/3
+6*2=> 2/2/2/2/2/2
