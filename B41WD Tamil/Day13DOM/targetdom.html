@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class= "container">
+        <div class="heading">Home</div>
+        <div class="heading">About</div>
+        <div class="heading">Services</div>
+        <div id="button1">Logout</div>
+        <button id="button">Button</button>
+        </div>
+    <script>
+var result = document.getElementById('button2');
+console.log(result);
+
+var result1 = document.getElementsByClassName('container');
+console.log(result1);
+
+var result2 = document.getElementsByClassName('heading');
+console.log(result2);
+
+var result3 = document.getElementsByTagName('div');
+console.log(result3);
+
+var result4 = document.getElementsByTagName('button');
+console.log(result4);
+           
+for (var i=0; i<result1.length;i++){
+                console.log(result1[i])
+            }
+
+            for (var i=0; i<result3.length;i++){
+                console.log(result3[i])
+            }
+     
+    </script>
+</body>
+</html>

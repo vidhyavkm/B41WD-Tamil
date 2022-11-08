@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var p = document.createElement("p");
+p.innerHTML=`<div class="card">
+  <div class="card-body">
+    This is some text within a card body.
+  </div>
+</div>`
+document.body.append(p);
+
+var newP = document.createElement("p");
+newP.innerText=`<div class="card">
+  <div class="card-body">
+    This is some text within a card body.
+  </div>
+</div>`
+document.body.append(newP);
+    </script>
+</body>
+</html>

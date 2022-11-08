@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let heading = document.createElement(`h1`); //step1
+heading.innerHTML= `this is a h1 tag`; //step2
+// document.body.append(heading);
+
+let heading1 = document.createElement(`h2`); //step1
+heading1.innerHTML= `this is a h2 tag`; //step2
+document.body.append(heading,heading1);//we can append one or more elements.
+
+let heading2 = document.createElement(`h1`); //step1
+heading2.innerHTML= `this is a h1 tag`; //step2
+// document.body.append(heading,heading1);
+
+let heading3 = document.createElement(`h2`); //step1
+heading3.innerHTML= `this is a h2 tag`; //step2
+document.body.appendChild(heading2,heading3)
+    </script>
+</body>
+</html>
