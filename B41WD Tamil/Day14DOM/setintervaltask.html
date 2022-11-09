@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="foo"></div>
+    <script>
+        //print 1 to 10 and print happy childrens day by using setinterval
+
+       var timer= setInterval(count,1000)
+        let count1 = 0;
+        function count(){
+            count1++;
+            console.log(count1)
+            var target = document.getElementById('foo')
+            target.innerHTML=count1;
+            document.body.append(target)
+            if(count1>10){
+                clearInterval(timer)
+            }
+            if(count1>10){
+console.log("Happy Childrens Day")
+var target = document.getElementById('foo')
+target.innerHTML="Happy Childrens Day";
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="" id="blurEve">
+    <button id="clickButton">Click ME</button>
+    <script>
+        var clickButton= document.createElement('button')
+        clickButton.innerHTML="submit"
+        clickButton.setAttribute('id','submit')
+        clickButton.addEventListener('click',function button(event){
+        console.log("Button is clicked")
+    console.log(event)
+    console.log(event.target)
+    console.log(event.target.id)
+    console.log(event.target.value)
+    console.log(event.height)
+}
+        )
+        document.body.append(clickButton);
+
+       
+        blurButton.addEventListener('blur',function blur(event){
+        console.log("Blur is triggered")
+    console.log(event)
+    console.log(event.target)
+    console.log(event.target.id)
+    console.log(event.target.value)
+    console.log(event.height)
+}
+        )
+document.body.append(blurButton);
+
+        
+    </script>
+</body>
+</html>

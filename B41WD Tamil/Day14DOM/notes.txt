@@ -1,0 +1,65 @@
+window common util functions.
+settimeout
+setinterval
+alert
+prompt
+confirm
+events=> addeventlistener
+
+alert box:
+it has ok button 
+alert()
+any information we want tpo give it to the user
+it enforces the user to read and acknoawledge
+
+chrome/mozilla/edge available 
+
+confirm box:
+it has ok and cancel button 
+confirm()
+any information we want to give it to the user
+taking an acknowledgement from the user
+ok=> returns true
+cancel=> returns false
+
+chrome/mozilla/edge available 
+
+Prompt:
+user should have give some inputs
+Input=>ok
+no input=> null
+ok and cancel button
+
+settimeout:
+=> it will execute only once 
+=> it is a function what we need to execute
+=> it needs some delay time
+1000ms=> 1 sec
+
+syntax:
+settimeout(functionname,delaytime)
+function functionname(){
+    condition
+}
+
+setinterval:
+=> executes again and again at a specific time.
+syntax:
+setinterval(functionname,delaytime)
+function functionname(){
+    condition
+}
+
+Events:
+
+when an action is performed event os triggered.
+event is a object.
+eg: click button
+
+onclick
+onblur
+input
+onchange etc.,
+
+DOM= event => addeventlistener()
+
