@@ -1,0 +1,3 @@
+events => onclick, onblur, onfocus, onmouseover
+syntax: varname.addeventlistener('event'(withouton),'function)
+

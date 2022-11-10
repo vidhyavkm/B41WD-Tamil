@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="fullscreen">Fullscreen mode</button>
+    <button id="exitscreen">Exit fullscreen</button>
+    <script>
+var element=document.documentElement //rootelemnt
+        
+          var fullscreen=document.getElementById('fullscreen')
+          var exitscreen=document.getElementById('exitscreen')
+           
+            fullscreen.addEventListener('click', function(){
+element.requestFullscreen();
+            })
+exitscreen.addEventListener('click', function(){
+document.exitFullscreen();
+            })
+    </script>
+   <!-- exitFullscreen()
+   requestFullscreen() -->
+</body>
+</html>
