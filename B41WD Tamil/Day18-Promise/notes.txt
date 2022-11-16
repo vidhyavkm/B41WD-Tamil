@@ -1,0 +1,45 @@
+What is a promise?
+giving n assurance
+
+happens / not happen
+resolve or reject 
+ promise is one of the method to handle async functions.
+ developers nowadays using it, but not often.
+
+ promise is an object.
+ keyword=> new
+
+ syntax: let xyz = new Promise()
+
+ it always has 2 parameters.
+ => resolve
+ => reject
+
+ const p = new Promise(()=>{})
+
+ Promise has 3 states:
+
+1.pending=> initial state=> pending unless or until async ops in process.
+2.fullfilled => we will get the value=> .then()=> to handle errors.
+3.rejected => fails, we will get error => .catch()=>,,=> it always throws an
+ error msg along with the states
+
+returns an object.
+promise can either fullfilled or rejected.
+both will not happen at the same time,
+
+Promisechaining/Dependant operations
+
+handle multiple async operations,
+.then and .catch used many times.
+complexity level is high, time consuming 
+
+to overcome this we can have promise all
+if all get fullfiled it works well.
+it will rectfy the problem occured in multiple promises.
+it hides all the fullfilled state and returns only returns the rejected state.
+this is a major drawback.
+
+to overcome this, they introduced, promiseallsettled.
+it will give all the results in object format.
+to get only the values then we can use foreach along with .then and .catch.
