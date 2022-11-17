@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    function foo(){
+            return "hi"
+        }
+        console.log(foo());
+
+        async function foo1(){
+            return "hi"
+        }
+        console.log(foo1());
+
+        async function foo2(){
+            let data = await "hi"
+            console.log(data)
+        }
+        foo2();
+
+        //rest countries
+
+        async function restCountries(){
+            let data = await fetch("https://restcountries.com/v3.1/all")
+            console.log(data)
+            let res = await data.json()
+            console.log(res)
+        }
+        restCountries();
+
+        //weathermap
+
+        async function restCountries(){
+            let data = await fetch('https://api.openweathermap.org/data/2.5/weather?q=chennai&appid=175fa9771bfa1b408feb60f0443a32d7')
+            //console.log(data)
+            let res = await data.json()
+            console.log(res)
+        }
+        restCountries();
+
+    </script>
+</body>
+</html>
