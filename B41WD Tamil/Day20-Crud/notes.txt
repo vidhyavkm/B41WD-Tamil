@@ -1,0 +1,11 @@
+CRUD=> create, read, update, delete.
+we have to use Mockapi..
+
+operations  - http protocol
+
+create      - post
+read        - get
+update      - put
+delete      - delete
+
+along with async/await-fetch.
