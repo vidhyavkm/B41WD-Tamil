@@ -1,0 +1,35 @@
+Dear Zen students, 
+Welcome to the first hackathon event in Zen class.Please find the below problem statement and guidelines.
+
+Task Name: COVID19 API 
+Implement the COVID19 API using async/await with fetch.
+
+Constraints:
+
+All your HTML elements should be created with DOM.
+Use the async/await.
+Use try catch to handle errors.
+Use fetch() to get the data from COVID19 API
+All JavaScript codes should be in a script file named script.js which has to be imported in your HTML page.
+
+
+questions:
+
+1.Search for the country based on the name ?
+2.If you get the response back, display the active,recovered,confirmed and deaths?
+
+Any basic hints to solve:
+
+https://api.covid19api.com/
+https://documenter.getpostman.com/view/10808728/SzS8rjbc
+
+Terms and Conditions:
+
+You have 24 hours to complete  before the deadline.
+Raise a query ticket only in the Zen portal and get your doubts resolved. 
+You agree to not share this confidential document with anyone.
+You agree to open-source your code (it may even look good on your profile!). Do not mention our company’s name anywhere in the code.
+We will never use your source code under any circumstances for any commercial purposes; this is just a basic assessment task.
+Submit the Netlify URL and GitHub repository URLs
+
+NOTE: Any violation of Terms and conditions is strictly prohibited. You are bound to adhere to it.
