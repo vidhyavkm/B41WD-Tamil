@@ -1,0 +1,23 @@
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 70px;
+}
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* height:300px; */
+    width:400px;
+    position: relative;
+}
+#text{
+    /* position: absolute; */
+    /* left:40%; */
+    font-size: 40px;
+}
+#textarea{
+    border:2px solid blueviolet;
+    border-radius: 5px;
+    
+}
+body{
+    margin:30px;
+}
