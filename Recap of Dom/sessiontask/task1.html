@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <!-- Color a span/div element content when a user moves the mouse over the element. -->
+
+<div id="mouseOver">Color a span/div element content when a user moves the mouse over the element</div>
+<script>
+    var colorElement = document.getElementById('mouseOver')
+    colorElement.addEventListener('mouseover',()=>{
+        colorElement.style.color="red"
+    })
+        colorElement.addEventListener('mouseleave',()=>{
+        colorElement.style.color=""
+        })
+        // setTimeout(()=>{
+        //     colorElement.style.color=""
+        // },500)
+</script>
+</body>
+</html>

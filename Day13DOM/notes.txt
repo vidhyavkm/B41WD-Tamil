@@ -1,0 +1,56 @@
+what is DOM?
+document object model=> combination of html elements along with javascript.
+
+dom manupulation:
+create element
+appendchild vs append
+setattributes, classlist
+geteleementby id and getelement by classname
+queryselcetor vs queryselector all.
+innerhtml vs innertext.
+
+h1 tag => cretaed in html page is called statically cretaed eleemnts.
+
+if we create the same element by using dom , dynamically cretaed.
+how to create an element dynamically?
+document.createelememt()
+
+innerhtml=> is used to print the element(<h1>helo</h1>)
+innertext=> used to print plain text.
+
+append=> by using append we can add the multiple elements inside the documents.
+appendchild=> we can add only one elemenet(which is first)
+
+setattributes:
+
+it consists of all extra informations about the tags.
+setattribute('class','classname')
+setattribute('id','idname')
+p.setattribute('id','para')
+
+multiple classes we can use.
+classlist.add('classname1','classname2' etc...)
+
+TargetDom:=> get html collections as an output
+
+getelementbyid
+getelementbyclassname
+getelementbytagname
+
+queryselector vs queryselector all=> got nodelist as an output
+
+if u want to select one elemnt 
+if u want to select all the elements =>all
+syntax:
+document.queryselector('#idname')
+document.queryselector('.classname')
+
+document.queryselectorall('#idname')
+document.queryselectorall('.classname')
+
+
+
+
+
+
+

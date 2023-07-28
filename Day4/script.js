@@ -1,10 +1,10 @@
 //  //normal function without parameters
  function foo(){
     return ("Hello world")
-    //console.log(foo());
+    console.log(foo());
 }
 console.log(foo());
-//foo();
+// foo();
 
 // //normal function with parameters
 
@@ -13,7 +13,7 @@ function add(a,b){ //if we are not using return keyword it gives undefined.
     //console.log(a+b);
 }
 console.log(add(30,40));
-//add(30,40)
+add(30,40)
 
 // //anonymous function:
 
@@ -21,6 +21,7 @@ var sum = function(x,y){
     return x-y;
 }
 console.log(sum(300,40));
+sum()
 
 //IIFE fucntion:
 
@@ -46,6 +47,7 @@ var res =(i,j)=> {
     return total;
 }
 console.log(res(50,60))
+res(50,60);
 
 
 

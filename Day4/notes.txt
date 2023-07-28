@@ -43,7 +43,8 @@ return keyword will stop the function once executed.
 types of function:
 
 1. named or normal function => 
-syntax: function functionname(parameters){statement or condition return keyword}(arguments)
+syntax: function functionname(parameters){statement or condition return keyword}
+functionname(arguments)
 
 2. anonymous function=> fucntion has no name
 syntax: variable variablename = function (){return}

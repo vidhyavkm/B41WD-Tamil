@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+</head>
+<body>
+ <!-- <h1>this is a h1 tag</h1> -->
+    <script>
+let heading = document.createElement("h1"); //step1
+heading.innerHTML= "this is a h1 tag"; //step2
+document.body.append(heading); //step3
+
+let division = document.createElement('div'); //step1
+division.innerText= `<h1>this is a h1 tag</h1>`; //step2
+document.body.append(division); //step3
+
+let paragraph = document.createElement("p"); //step1
+paragraph.innerHTML= "this is a p tag"; //step2
+document.body.append(paragraph); //step3
+
+// const paragraph = document.createElement("p"); //step1
+// paragraph.innerHTML= "hi hello"; //step2
+// document.body.append(paragraph); //step3
+
+var divi = document.createElement('div')
+divi.innerHTML="";
+//document.body.append(divi)
+
+var par = document.createElement('p')
+par.innerHTML="this is a div tag";
+//document.body.append(par)
+divi.append(par)
+document.body.append(divi)
+
+    </script>
+</body>
+</html>

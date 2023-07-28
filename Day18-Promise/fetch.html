@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// var res = fetch("https://restcountries.com/v3.1/all")
+//     //console.log(res)
+
+// //res.then((data)=> {
+// //console.log(data.json())})
+
+// res.then((data)=>data.json()).then((data1)=>
+// {console.log(data1)
+
+var res = fetch('https://api.openweathermap.org/data/2.5/weather?q=chennai&appid=175fa9771bfa1b408feb60f0443a32d7')
+//console.log(res)
+res.then((data)=>data.json()).then((data1)=>{console.log(data1)}).catch((err)=>{console.log(err)})
+
+//write a code to print the countries in asia region using fetch.
+
+// console.log(data1[0].region)
+// var asiancount = data1.filter((obj)=>obj.region==="Asia")
+// console.log(asiancount);
+
+// // for the above code print the sum of the total population of the countries in asian region
+
+// var population = asiancount.reduce((previousValue, currentValue) => previousValue + currentValue.population,0)
+//  console.log(population) 
+ 
+
+</script>
+</body>
+</html>

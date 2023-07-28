@@ -1,0 +1,10 @@
+fetch => is an alternative for XML http request.
+XHR=> output is always object
+
+fetch always returns objectand it always returns promise.
+ syntax: fetch("api url")
+ inside the promise, the data which we are having is a readable stream.
+ so we have to change this format
+ into JSON.
+
+ to handle and get the outputs , in fetch we can use .then and .then

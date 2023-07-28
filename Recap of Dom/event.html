@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <input onfocus="focusEvent(event)" type="text" name="" id="input1">
+  <input onblur="blurEvent(event)" type="text" name="" id="input1">
+  <p onmouseover="mouseOver(event)">Keep cursor on me</p>
+    <!-- <input type="text" name="" id="input">-->
+
+    <script>
+//         var inputTag= document.createElement('input')
+//         inputTag.innerHTML=""
+//         inputTag.setAttribute('id','input')
+//         inputTag.addEventListener('input',function button(){
+//         console.log("Input is clicked")
+//     // console.log(event)
+//     // console.log(event.target)
+//     // console.log(event.target.id)
+//     // console.log(event.target.value)
+//     // console.log(event.height)
+// }
+//         )
+//         document.body.append(inputTag);
+
+        //focus event
+var input1 = document.getElementById("input1")
+function focusEvent(event){
+    console.log("Focus event triggered")
+    console.log(event.target.value)
+}
+
+    //blur event
+    var input1 = document.getElementById("input1")
+function blurEvent(event){
+    console.log("blur event triggered")
+    console.log(event.target.value)
+}
+
+// var input1 = document.getElementById("input1")
+function mouseOver(event){
+    console.log("mouseover event triggered")
+    console.log(event)
+}
+        </script>
+</body>
+</html>

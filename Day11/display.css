@@ -1,0 +1,8 @@
+#none{
+    background-color: aqua;
+    /* display:none; */
+        }
+        #hidden{
+            background-color: brown;
+            /* visibility: hidden; */
+        }

@@ -1,0 +1,9 @@
+Async/Await an advance method to retrieve data s from api
+
+it both works together 
+
+async/await
+async will always returns a promise
+wen we use await along with async it will give us the output.
+
+for handling errors in async await we are using try catch.

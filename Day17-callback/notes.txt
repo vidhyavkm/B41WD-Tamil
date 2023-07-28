@@ -1,0 +1,73 @@
+Javascript is a synchronous function=> executes line by line.
+this is time consuming
+Javascriptalways given prefernec to first come first , prefer who tales less time,
+
+advance Javascript=> 4 pillars 
+1. callback
+2. promise
+3. fetch
+4. Async/Await
+
+reasons:
+to make sync Js into Async.
+
+callback:
+it is a function which takes one or more function as a parameter.
+
+ex: settimeout.
+
+settimeout:
+it is an async function.
+it takes function a s a parameter.
+as well as the amount of time need to block.
+
+why callback?
+nodejs backend (rarely)
+to avoid time consuming and memory waste.
+
+callstack
+webapi
+callbackqueue
+eventloop.
+
+disadvantage of callback :
+
+callback hell=>(pain of callback) more than n function
+less accuracy.
+function inside a function, more than many functions are executed
+in the same program, JS gets stucked and it got confused then throws error.
+so callback hell is not suits for all the web api's retrieve the data.
+nowadays w eare not using callback hell anywhere(rarely used)
+
+callstack:
+
+ it is a place in a browser where it keeps all the track of the codes.
+ that has to be called in the program
+ it will executes whtaever the statement inisde it .
+ if it has any callback function it send it into webapi.
+call stack's realtime usage is in DS and algorithm.
+
+webapi:
+
+it is the place where the async functions or call back functions are actually
+exectued.
+it receives those callback functions from callstack.
+it run the callback functions and send it to callbackqueue
+
+callbackqueue:
+
+it stores the async function which has come from webapi
+it decides which one is executed at first.
+first come,first serve.
+
+eventloop:
+
+it coordinates between callback queue and callstack .
+it checks whether the callstack is empty or not.
+if it is empty , it will push the function to the callstack.
+it will rotate once wen an async function moves to the callstck.
+
+
+
+
+

@@ -1,0 +1,27 @@
+h1{
+    /* background-color: aqua; */
+    color:chartreuse;
+    font-size: 100px;
+    text-align: center;
+   /* width:500px; */
+
+}
+div{
+    text-align: center;
+    height:30px;
+}
+input{
+    height:50px;
+    width:300px;
+    border: 2px dotted brown;
+    border-radius: 10px;
+}
+button{
+    height:50px;
+    width:100px;
+    border: 2px dotted white;
+    border-radius: 150px;
+}
+body{
+    background-image: url(https://www.cdc.gov/media/dpk/diseases-and-conditions/coronavirus/images/outbreak-coronavirus-world-1024x506px.jpg?_=31301)
+}

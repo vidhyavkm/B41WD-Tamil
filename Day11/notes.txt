@@ -1,67 +1,68 @@
-Psuedo classes
-Flex
-Grid
-Position properties
-gradient
+topics:
+
+overflow
+dropbox
+measurements
+font icons
+media queries
 parent inherit
-box model
 
-Psuedoclasses: defines the special state of elemnt
-it majorly used for anchor tags which has hyperliks
-it works with limitations in rest of the tags
-to style an elemnt when user mouses over it 
-style visited and unvisited links differently
+parent inherit:
 
-types:
+inherit => a behaviour trsnfered from the parent to child
+css inherit=> the property of the parent can be transfered to the child element
 
-link=> css properties can appiled in psudeo classes when the link is on
-visited=> the css properties can change wen we visted the page 
-hover=> the color and font can cahnge wen we hover the mouse on it
-active=> if the link is active we can change the properties 
+inherit keyword=> we can use this for giving values of the properties 
+as per the parent element.
+property: inherit;
 
-gradient:
-multiple colors
-smooth transitions of 2 or more colors
-property: background image 
+overflow:
+if the content exceeds the container or box elemnt then we can use 
+overflow css property
 
-linear  =>line transition
-radial  => circular transition
-more types are there
+types: oveflow property considers width.
 
-Box model:heart
-margin=> used to create a space around the elemnt outside of the border
-padding=> used to create a space ariund the elemnt inside of the border
-border=> it defines the specific area of a content
-box(optional)
+visible=> default.
+it doesnt consider height.
+whatever the content is it shows all.
+if the height is less, it overflows the content.
 
-margin 
+hidden=>
+it considers the height.
+it doesnt shows the content whoch exceeds the container.
+if the container height is less, it hodes the content.
 
-=> one value => it applies evenly to all the four sides
-=> if e give two values it takes top and bottom first and right and left to second 
-we can give all the four values seperately
-and also we can give seperate, values like margin top, margin bottom etc
-margin: auot=> horizontally centered
+scroll=>
+if the height is less than the content, it creates a scroll.
+bar to see all the contents inside the container.
 
-padding: 
-=> one value => it applies evenly to all the four sides
-=> if e give two values it takes top and bottom first and right and left to second 
-we can give all the four values seperately
-and also we can give seperate, values like margin top, margin bottom etc
+auto=> 
+it is the combination of all the three.
+if the content is high it is it creates a scrollbar
+if the comtent is less it is behave like a visibile
+it never exceeds the container.
 
-border: 
-=> one value => it applies evenly to all the four sides
-=> if e give two values it takes top and bottom first and right and left to second 
-we can give all the four values seperately
-and also we can give seperate, values like margin top, margin bottom etc
+dispaly : none=> the content is gone if we use this property
+it odesnt even takes spaces
 
-grid:
-align both rows and columns
+visibility : hidden=> the content is gone if we use this.
+but it takes spaces.
 
-flex: only one at a time
-align rows or columns
+dropbox:
+we can use select and option tag for creating a dropbox.
+and we can use styling to create a dropdown.
 
-grid gap=> the space between the horizontal and vertical line 
-between the grid boxes.
+measurements:
+px, %,cm,em, ex, in, mm,pc,pt, rem
+ in>cm>>pc>rem>em>ch>mm>px>pt>%  as per size
+ usage => widely used =>px and % 
 
-justify content=> contents are aligned only horizontally
-align items : contents are aligned only vertically
+ font icons:
+
+copy cdn link from fontawesome page and link it in the link taginside head.
+then go for font icon page and search for the particular icon and copy paste it.
+
+then we can apply css properties to it.
+
+Media queries:
+to change the css properties of the website based on the size of the document.
