@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>XMLHttpRequest Example</title>
+  </head>
+  <body>
+    <script>
+      //Create a new XMLHttpRequest object
+      var xhr = new XMLHttpRequest();
+
+      //Define HTTP method and URL
+      var method = "GET";
+      var url = "https://restcountries.com/v3.1/all";
+    //   var lat = -20.0;
+    //   var long = -175.0;
+    //   var apiKey = "37ba9824a231c697643e4a57ef092cf6";
+    //   var weatherURL = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=${apiKey}`;
+
+      //Open the request
+      xhr.open(method, url);
+
+      xhr.onload = function () {
+        if (xhr.status === 200) {
+          var details = JSON.parse(xhr.responseText);
+          for (var i = 0; i < details.length; i++) {
+            if (details[i].currencies != undefined) {
+              Object.keys(details[i].currencies).forEach((key) => {
+                if (key == "USD") {
+                  console.log(key, details[i].currencies[key]);
+                }
+              });
+            }
+          }
+        } else {
+          //Request failed
+          console.log("Request failed", xhr.status);
+        }
+      };
+
+      //send the request
+      xhr.send();
+    </script>
+  </body>
+</html>
