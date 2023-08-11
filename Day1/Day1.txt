@@ -14,7 +14,7 @@ datatypes:
 2. Composite 
 3. Trivial datatypes
 
-number=> ex: 2,3.5,100,  1/2
+number=> ex: 2,3.5,100,1/2
 string => "guvi", 'geek'(single or double quotes)
 Boolean => true or false (1 or 0)
 

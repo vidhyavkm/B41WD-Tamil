@@ -1,5 +1,6 @@
 //  //normal function without parameters
  function foo(){
+    
     return ("Hello world")
     console.log(foo());
 }

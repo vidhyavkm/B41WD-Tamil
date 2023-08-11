@@ -30,6 +30,10 @@
         });
         console.log(p4)
 
+        function foo(num){ return new Promise((resolve,reject)=>setTimeout(()=>resolve(num*2,2000))); } 
+        foo(5).then((data)=>{ console.log(data); 
+            return foo(data); console.log(data); }).then((data1)=>{ console.log(data1);
+             return foo(data1); }).then((data2)=>console.log(data2)).catch((error)=>console.log(error));
 
     </script>
 </body>
